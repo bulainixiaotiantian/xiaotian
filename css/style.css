@@ -1,0 +1,127 @@
+h1,h2,h3,h4,h5,h6,p,input,body,textarea,ul,li, ol,dl,dd{margin: 0;padding: 0;}
+ol,ul{ list-style: none;}
+
+a{text-decoration: none; color: inherit;}
+img,input{border: none;}
+i{ font-style: normal;}
+body{ font-family: arial "微软雅黑" "宋体";}
+.clearfix:after{ content: "200B"; height: 0; font-size: 0; display: block;clear: both;}
+.clearfix{*zoom: 1;}
+.clear{ clear: both;}
+.header .top { background:#f1f1f1;height: 30px; font-family: arial "微软雅黑" "宋体";}
+.inner{ width: 1210px; margin: 0 auto;}
+.header .top .diqu{ float: left;vertical-align:middle; font:12px/30px " 宋体"; color:#666;}
+.header .top .diqu i{transition:all 0.3s ;width: 15px;font-family:consolas;height:6px;font-size:22px;margin-left:9px;display:inline-block; overflow: hidden; line-height: 0px;}
+.header .top .diqu:hover i{ transform:rotate(180deg)}
+.header .top  ul{ float: right;}
+.header .top  ul li{ line-height:30px; height:30px;float:left;font-size:12px;}
+.header .top  ul li a{ padding: 0 10px; vertical-align:middle;}
+.header .top  ul .line{ width: 1px;height: 12px;background:#ddd; margin-top: 9px;}
+.header .top  ul .user{ padding: 0 5px 0 0;}
+.header .top  ul .sign{ padding: 0 13px 0 0;color:#C81623;}
+.header .top  ul li a:hover{color:#C81623;}
+.header .top  ul li a i{ transition:all 0.3s ;width: 15px;font-family:consolas;height:6px;font-size:22px;margin-left:9px;display:inline-block; overflow: hidden; line-height: 0px;}
+.header .top  ul li a:hover i{transform:rotate(180deg);}
+.header .top  ul li span{float:left;display: inline-block;width:15px;height:20px;background:url(../images/jd2015img.png) no-repeat; margin:5px 3px 0 0;}
+.header .top  ul li:hover span{background-position:0 -25px;}
+.header .top  ul .bj:hover{ background-color:#fff;}
+.header .mid { width: 1210px; margin: 0 auto;}
+.header .mid .logo{ float: left; width: 270px; height: 60px; padding: 20px 92px 0 0;}
+.header .mid .form{ float: left; padding-top: 25px;}
+.header .mid .buy{ float: right;}
+.header .mid .text{ width: 450px; height: 32px; float: left; color: #666; border: 2px solid #b61d1d; padding-left: 4px;}
+.header .mid .sub{ cursor: pointer; width: 80px; height: 36px; float: left; font-size: 15px; color:#fff; background: #b61d1d;}
+.header .mid .tages{ height: 28px; width:540px; overflow: hidden;}
+.header .mid .tages a{ margin-right:11px;line-height: 28px; float: left; font-size: 12px; font-family: "宋体";}
+.header .mid .tages .gift{ color:#c81623;}
+.header .mid .tages a:hover{ color: #c81623;}
+.header .mid .buy{ position:relative;width: 95px; height: 34px;background-color: #f9f9f9; background: url(../images/jd2015img.png) no-repeat 17px -48px ;
+ margin-top: 25px; border: 1px solid #dfdfdf; font-size: 12px; color: #666; line-height: 34px;padding-left: 44px;}
+.header .mid .buy i{ width:6px; height: 9px;  margin-left: 19px;}
+.header .mid .buy a:hover{ color: #c81623;}
+.header .mid .buy span{ padding: 0 5px; height: 14px; line-height: 14px; font-size: 12px; color: #fff; text-align:center ; border-radius:6px  6px 6px 0; position: absolute; background:#C81623 ;left:104px;top:-4px;}
+
+.header .bot { height: 55px; border-bottom:2px solid #b1191a ;}
+.header .bot .inner{ padding-top: 11px;}
+.header .bot .list{ color: #fff; background: #B1191A; font-size: 15px; line-height: 44px;
+width: 200px; height: 44px; padding-left: 10px; float: left;}
+.header .bot ul{ float: left;}
+.header .bot li{height:45px; font-size:16px; float: left; padding: 0 20px;}
+.header .bot li a:hover{ color: #c81623;}
+/*-------------------以上-header部分----------------------------*/
+
+
+.page1 .list_nav{  width: 209px;height: 466px; background: #C81623; color: #fff; border-left: 1px solid #b61d1d;}
+.page1 .list_nav li{position: relative; z-index: 3; width:209px;font-weight:normal;padding-left: 10px; font-family: "微软雅黑"; height: 31px; line-height: 31px; font-size: 14px;}
+.page1 .list_nav li a{font-weight:normal;}
+.page1 .list_nav li:hover{ background: #f7f7f7; color: #C81623;}
+.page1 .list_nav li:hover i{color: #C81623;}
+.page1 .list_nav h3{ width: 175px; font-size: 14px;font-weight:normal;height:31px; overflow: hidden;}
+.page1 .list_nav li i{font-weight:normal; position: absolute;top:0; right: 20px; font-family: consolas; font-size: 12px;}
+
+.page1 .bot .watch{ width: 210px;height: 151px; float: left; background:url(../images/homebg.png) no-repeat -213px -135px;}
+.page1 .bot ul{ float: left;}
+.page1 .bot ul li{ float:left; width: 249px;height: 164px;margin-right:1px ; overflow: hidden;}
+.page1 .bot { padding-top: 10px;}
+
+
+/*-----------以下low price部分-----------------*/
+.low_price { padding-bottom: 20px;}
+.low_price .title { line-height:41px;font-size:20px;padding-top: 14px;
+ font-family:"微软雅黑";}
+.low_price .title h2{float: left;font-size: 20px;font-weight: normal;}
+.low_price .title h3{float:right;font-size: 20px;font-weight: normal;margin-right:226px;}
+.low_price .list {height: 281px; border: 1px solid #E5E5E5;}
+.low_price .price_left{float: left;width: 241px; height: 281px;border-right: 1px solid #E5E5E5;}
+.price_left .pic{ width: 160px; height: 105px; margin: 0 auto; padding-top: 22px;}
+.price_left  h3{ font-size: 12px; color: #666; text-align: center; line-height: 23px; padding-top: 61px; }
+.price_left  h4{ font-weight: bold; line-height: 22px; padding-left: 31px; color: #E12228; font-size: 20px;}
+.price_left  h4 i{ float: right; padding-right: 65px;font-size: 12px; font-weight: normal; font-family: "宋体";}
+.low_price .price_center{  overflow:hidden;float: left; width: 659px;height: 281px; border-right: 1px solid #E5E5E5;}
+
+.price_center li{  float:left;width: 219px; height: 140px;border-right: 1px solid #E5E5E5;border-top: 1px solid #E5E5E5;}
+.price_center ul{width: 660px;}
+.price_center li img{ float: left; padding: 18px 4px 0 10px;}
+.price_center li p{ line-height: 18px; font-size: 12px; color: #666; padding: 18px 15px 0 0;}
+.price_center li h4{color: #E12228; font-size: 20px; line-height: 28px;}
+
+.price_right{padding-top:39px; float:left; overflow:hidden; position:relative; width:306px;height:243px;}
+.price_right li{ height: 86px; margin-bottom: 34px;}
+.price_right .pic{ width:81px; height: 70px; padding: 16px 20px 0 20px; float: left;}
+.price_right .text{float: left; width: 166px;}
+.price_right span{ width: 27px; height: 27px;}
+.price_right i{ margin-left: 8px;font-size: 12px; color: #666; }
+.price_right  p{ background: #F8F8F8;font-size: 12px; color: #666;}
+@keyframes runs{
+0%{top:0;}
+100%{ top:-240px;}
+
+}
+
+.price_right ul{ position:absolute; animation:runs 5s linear infinite;left:0;height:240px;}
+.price_right:hover ul{animation-play-state:paused;}
+/*-----------.footer部分-----------------*/
+.footer .top{ height: 74px; background: #f5f5f5; padding-top: 20px; }
+.footer .top li{ float: left;  width: 220px; height: 54px; line-height: 54px;margin-right: 80px; background: url(../images/nva_bg.png) no-repeat 0 -130px;}
+.footer .mid{ padding-bottom: 32px; margin-top: 15px; border-bottom: 1px solid #E5E5E5;}
+.footer .mid:after{ content: ""; display: block; height: 0; font-size: 0; clear: both;}
+.footer .mid dl{width:192px; float: left;}
+.footer .mid dl dt{ font-size: 16px; line-height: 35px;}
+.footer .mid dl dd{ font-size: 14px;line-height:20px;}
+.footer .mid .last{ width: 196px;}
+.footer .mid .right{ width: 246px; float: right; background: url(../images/20130330B_1.png) no-repeat 0 -134px; height: 173px;}
+.footer .mid .right dt dd{ margin-bottom: 9px;}
+.footer .mid .right .last{ text-align: right; width: 246px;}
+.footer .bot{ width: 1210px; margin: 0 auto;text-align: center;}
+.footer .bot ul{ font-size: 12px; display: inline-block; padding-top: 10px;}
+.footer .bot ul li{ float: left; line-height: 38px;}
+.footer .bot ul li a:hover{color: red;}
+.footer .bot ul span{ margin: 0 10px; width: 1px; height: 10px; background-color: #9B669B; display: inline-block;}
+.footer .bot p{ line-height: 20px; font-size: 12px;}
+.footer .icon{ padding-top: 8px; display: inline-block;}
+.footer .icon_1{ padding:0  11px 0 43px; float:left; font-size: 12px; height: 32px; background-color: #EEE; margin-right: 13px; background-image: url(../images/foot_03.png); background-position: 2px 2px;background-repeat: no-repeat; line-height: 32px;}
+.footer .er{background-image: url(../images/foot_05.png);}
+.footer .san{background-image: url(../images/foot_07.png);}
+.footer .si{background-image: url(../images/foot_09.png);}
+.footer .wu{background-image: url(../images/foot_11.png);}
+.footer .liu{background-image: url(../images/foot_13.png);}
